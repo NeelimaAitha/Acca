@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import WhyChooseUs from './components/WhyChooseUs';
+import Learn from './components/Learn';
+import PlacementAssistance from './components/PlacementAssistance';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Header />
+    <Banner />
+    <WhyChooseUs />
+    <Learn />
+    <PlacementAssistance />
+    <Footer />
+  </div>
+);
 
 export default App;

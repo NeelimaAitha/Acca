@@ -1,0 +1,21 @@
+.placement-assistance {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .placement-assistance h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .placement-assistance ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .placement-assistance ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,36 @@
+.navbar {
+    background-color: blue !important;
+    text-align: center;
+  }
+  
+  .navbar-brand,
+  .navbar-nav {
+    display: flex;
+    justify-content: center
+  }
+  
+  .navbar-collapse {
+    text-align: center;
+  }
+  
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .btn-outline-light {
+    color: white !important;
+    border-color: white !important;
+  }
+  .navbar-nav.btn{
+    background-color: white !important;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: white !important;
+    color: blue !important;
+  }
+  

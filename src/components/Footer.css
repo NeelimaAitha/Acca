@@ -1,0 +1,21 @@
+.footer {
+    padding: 50px 0;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .footer .btn {
+    font-size: 1rem;
+  }
+  
